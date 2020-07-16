@@ -1,6 +1,7 @@
 .board {
     display: flex;
-    width: 60%;
+    /* width: 60%; */
+    margin: 0;
     margin: auto;
     justify-content: center;
 }
@@ -10,4 +11,11 @@
     width: 100px;
     border: 5px solid black;
     padding: 20px;
+}
+
+#bingo {
+    border: 2px red dotted;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
 }
