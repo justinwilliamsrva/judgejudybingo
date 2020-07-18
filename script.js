@@ -66,35 +66,103 @@ function exa4() {
 // Background
 
 document.getElementById("box1_1").addEventListener("click", () => {
-    color = !color;
-
-    if (color == true) {
-        document.getElementById("box1_1").classList.add("red");
-    } else {
-        document.getElementById("box1_1").classList.remove("red");
-    }
+    document.getElementById("box1_1").classList.toggle("red");
 
     red();
 });
 
 document.getElementById("box1_2").addEventListener("click", () => {
-    color = !color;
-
-    if (color == true) {
-        document.getElementById("box1_2").classList.add("red");
-    } else {
-        document.getElementById("box1_2").classList.remove("red");
-    }
+    document.getElementById("box1_2").classList.toggle("red");
 
     red();
 });
 
-let color = false;
+document.getElementById("box1_3").addEventListener("click", () => {
+    document.getElementById("box1_3").classList.toggle("red");
 
+    red();
+});
+document.getElementById("box1_4").addEventListener("click", () => {
+    document.getElementById("box1_4").classList.toggle("red");
+
+    red();
+});
+document.getElementById("box2_1").addEventListener("click", () => {
+    document.getElementById("box2_1").classList.toggle("red");
+
+    red();
+});
+
+// Bingo Function
 function red() {
     if (
         document.getElementById("box1_1").classList.contains("red") &&
-        document.getElementById("box1_2").classList.contains("red")
+        document.getElementById("box1_2").classList.contains("red") &&
+        document.getElementById("box1_3").classList.contains("red") &&
+        document.getElementById("box1_4").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box1_1").classList.contains("red") &&
+        document.getElementById("box2_1").classList.contains("red") &&
+        document.getElementById("box3_1").classList.contains("red") &&
+        document.getElementById("box4_1").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box1_1").classList.contains("red") &&
+        document.getElementById("box2_2").classList.contains("red") &&
+        document.getElementById("box3_3").classList.contains("red") &&
+        document.getElementById("box4_4").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box1_2").classList.contains("red") &&
+        document.getElementById("box2_2").classList.contains("red") &&
+        document.getElementById("box3_2").classList.contains("red") &&
+        document.getElementById("box4_2").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box1_3").classList.contains("red") &&
+        document.getElementById("box2_3").classList.contains("red") &&
+        document.getElementById("box3_3").classList.contains("red") &&
+        document.getElementById("box4_3").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box1_4").classList.contains("red") &&
+        document.getElementById("box2_4").classList.contains("red") &&
+        document.getElementById("box3_4").classList.contains("red") &&
+        document.getElementById("box4_4").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box1_4").classList.contains("red") &&
+        document.getElementById("box2_3").classList.contains("red") &&
+        document.getElementById("box3_2").classList.contains("red") &&
+        document.getElementById("box4_1").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box2_1").classList.contains("red") &&
+        document.getElementById("box2_2").classList.contains("red") &&
+        document.getElementById("box2_3").classList.contains("red") &&
+        document.getElementById("box2_4").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box3_1").classList.contains("red") &&
+        document.getElementById("box3_2").classList.contains("red") &&
+        document.getElementById("box3_3").classList.contains("red") &&
+        document.getElementById("box3_4").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box4_1").classList.contains("red") &&
+        document.getElementById("box4_2").classList.contains("red") &&
+        document.getElementById("box4_3").classList.contains("red") &&
+        document.getElementById("box4_4").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else {
