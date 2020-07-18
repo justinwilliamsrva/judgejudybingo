@@ -11,11 +11,12 @@ var cases = [
     "Were Done Here",
     "Pit Bull/Aggressive Breed Story",
     "Uncross Your Arms",
-    "Um is not answer",
+    '"Um is not an answer"',
     "I don't care if",
     "Hearsay",
     "Slander",
     "Emotional Distress",
+    "Horse Case"
 ];
 
 var ex = cases[Math.floor(Math.random() * cases.length)];
