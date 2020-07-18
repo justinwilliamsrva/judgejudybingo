@@ -77,7 +77,6 @@ document.getElementById("box1_1").addEventListener("click", () => {
     red();
 });
 
-
 document.getElementById("box1_2").addEventListener("click", () => {
     color = !color;
 
@@ -93,7 +92,12 @@ document.getElementById("box1_2").addEventListener("click", () => {
 let color = false;
 
 function red() {
-    if (document.getElementById("box1_1").classList.contains("red") &&document.getElementById("box1_2").classList.contains("red") ) {
-        alert("hi");
+    if (
+        document.getElementById("box1_1").classList.contains("red") &&
+        document.getElementById("box1_2").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else {
+        document.getElementById("bingo").innerHTML = "";
     }
 }
