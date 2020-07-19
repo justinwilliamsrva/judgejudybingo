@@ -16,7 +16,8 @@ var cases = [
     "Hearsay",
     "Slander",
     "Emotional Distress",
-    "Horse Case"
+    "Horse Case",
+    "Former Lovers"
 ];
 
 var ex = cases[Math.floor(Math.random() * cases.length)];
