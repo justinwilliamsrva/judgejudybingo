@@ -12,18 +12,19 @@ var cases = [
     "Aggressive Dog Breed",
     "Uncross arms, hand down, rolling eyes",
     '"Um is not an answer"',
-    '"I don\'t care if"',
+    '"I don\'t care if..."',
     "Hearsay",
     "Slander",
     "Emotional Distress",
     "Horse Case",
     "Former Lovers",
     "Byrd Speaks",
-    "'You have no case'/Case dismissed",
+    "Case dismissed",
+    "Counterclaim dismissed",
     "'You don't know where I am going with this'",
     "Contract Mentioned",
     "Child involved",
-    "If you love Judge Judy!"
+    "If you love Judge Judy! \n (Free space)",
 ];
 
 var ex = cases[Math.floor(Math.random() * cases.length)];
