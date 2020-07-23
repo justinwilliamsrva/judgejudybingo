@@ -34,5 +34,8 @@ body {
 }
 
 .red {
-    background-color: red;
+    background-image: url(judge.jpg);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position: center;
 }
