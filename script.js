@@ -8,11 +8,11 @@ var cases = [
     "Rent Case",
     '"You ate the Steak"',
     '"I don\'t believe you"',
-    '"Were Done Here"',
+    '"We\'re Done Here"',
     "Aggressive Dog Breed",
     "Uncross arms, hand down, rolling eyes",
     '"Um is not an answer"',
-    '"I don\'t care if..."',
+    '"I don\'t care"',
     "Hearsay",
     "Slander",
     "Emotional Distress",
@@ -20,11 +20,12 @@ var cases = [
     "Former Lovers",
     "Byrd Speaks",
     "Case dismissed",
-    "Counterclaim dismissed",
+    "Counter claim dismissed",
     "'You don't know where I am going with this'",
     "Contract Mentioned",
     "Child involved",
-    "If you love Judge Judy! \n (Free space)",
+    "Litigants talk to each other",
+    "\'It's a yes or no question\'",
 ];
 
 var ex = cases[Math.floor(Math.random() * cases.length)];
@@ -44,6 +45,15 @@ var ex12;
 var ex13;
 var ex14;
 var ex15;
+var ex16;
+var ex17;
+var ex18;
+var ex19;
+var ex20;
+var ex21;
+var ex22;
+var ex23;
+
 exa1();
 exa2();
 exa3();
@@ -59,6 +69,14 @@ exa12();
 exa13();
 exa14();
 exa15();
+exa16();
+exa17();
+exa18();
+exa19();
+exa20();
+exa21();
+exa22();
+exa23();
 
 function exa1() {
     ex1 = cases[Math.floor(Math.random() * cases.length)];
@@ -182,7 +200,7 @@ function exa10() {
     ) {
         exa10();
     } else {
-        document.getElementById("box3_3").innerHTML = ex10;
+        document.getElementById("box5_1").innerHTML = ex10;
     }
 }
 
@@ -301,6 +319,243 @@ function exa15() {
     }
 }
 
+function exa16() {
+    ex16 = cases[Math.floor(Math.random() * cases.length)];
+    if (
+        ex16 === ex ||
+        ex16 == ex1 ||
+        ex16 == ex2 ||
+        ex16 == ex3 ||
+        ex16 == ex4 ||
+        ex16 == ex5 ||
+        ex16 == ex6 ||
+        ex16 == ex7 ||
+        ex16 == ex8 ||
+        ex16 == ex9 ||
+        ex16 == ex10 ||
+        ex16 == ex11 ||
+        ex16 == ex12 ||
+        ex16 == ex13 ||
+        ex16 == ex14 ||
+        ex16 == ex15
+    ) {
+        exa16();
+    } else {
+        document.getElementById("box1_5").innerHTML = ex16;
+    }
+}
+
+function exa17() {
+    ex17 = cases[Math.floor(Math.random() * cases.length)];
+    if (
+        ex17 === ex ||
+        ex17 == ex1 ||
+        ex17 == ex2 ||
+        ex17 == ex3 ||
+        ex17 == ex4 ||
+        ex17 == ex5 ||
+        ex17 == ex6 ||
+        ex17 == ex7 ||
+        ex17 == ex8 ||
+        ex17 == ex9 ||
+        ex17 == ex10 ||
+        ex17 == ex11 ||
+        ex17 == ex12 ||
+        ex17 == ex13 ||
+        ex17 == ex14 ||
+        ex17 == ex15 ||
+        ex17 == ex16
+    ) {
+        exa17();
+    } else {
+        document.getElementById("box2_5").innerHTML = ex17;
+    }
+}
+
+function exa18() {
+    ex18 = cases[Math.floor(Math.random() * cases.length)];
+    if (
+        ex18 === ex ||
+        ex18 == ex1 ||
+        ex18 == ex2 ||
+        ex18 == ex3 ||
+        ex18 == ex4 ||
+        ex18 == ex5 ||
+        ex18 == ex6 ||
+        ex18 == ex7 ||
+        ex18 == ex8 ||
+        ex18 == ex9 ||
+        ex18 == ex10 ||
+        ex18 == ex11 ||
+        ex18 == ex12 ||
+        ex18 == ex13 ||
+        ex18 == ex14 ||
+        ex18 == ex15 ||
+        ex18 == ex16 ||
+        ex18 == ex17
+    ) {
+        exa18();
+    } else {
+        document.getElementById("box3_5").innerHTML = ex18;
+    }
+}
+
+function exa19() {
+    ex19 = cases[Math.floor(Math.random() * cases.length)];
+    if (
+        ex19 === ex ||
+        ex19 == ex1 ||
+        ex19 == ex2 ||
+        ex19 == ex3 ||
+        ex19 == ex4 ||
+        ex19 == ex5 ||
+        ex19 == ex6 ||
+        ex19 == ex7 ||
+        ex19 == ex8 ||
+        ex19 == ex9 ||
+        ex19 == ex10 ||
+        ex19 == ex11 ||
+        ex19 == ex12 ||
+        ex19 == ex13 ||
+        ex19 == ex14 ||
+        ex19 == ex15 ||
+        ex19 == ex16 ||
+        ex19 == ex17 ||
+        ex19 == ex18
+    ) {
+        exa19();
+    } else {
+        document.getElementById("box4_5").innerHTML = ex19;
+    }
+}
+
+function exa20() {
+    ex20 = cases[Math.floor(Math.random() * cases.length)];
+    if (
+        ex20 === ex ||
+        ex20 == ex1 ||
+        ex20 == ex2 ||
+        ex20 == ex3 ||
+        ex20 == ex4 ||
+        ex20 == ex5 ||
+        ex20 == ex6 ||
+        ex20 == ex7 ||
+        ex20 == ex8 ||
+        ex20 == ex9 ||
+        ex20 == ex10 ||
+        ex20 == ex11 ||
+        ex20 == ex12 ||
+        ex20 == ex13 ||
+        ex20 == ex14 ||
+        ex20 == ex15 ||
+        ex20 == ex16 ||
+        ex20 == ex17 ||
+        ex20 == ex18 ||
+        ex20 == ex19
+    ) {
+        exa20();
+    } else {
+        document.getElementById("box5_2").innerHTML = ex20;
+    }
+}
+
+function exa21() {
+    ex21 = cases[Math.floor(Math.random() * cases.length)];
+    if (
+        ex21 === ex ||
+        ex21 == ex1 ||
+        ex21 == ex2 ||
+        ex21 == ex3 ||
+        ex21 == ex4 ||
+        ex21 == ex5 ||
+        ex21 == ex6 ||
+        ex21 == ex7 ||
+        ex21 == ex8 ||
+        ex21 == ex9 ||
+        ex21 == ex10 ||
+        ex21 == ex11 ||
+        ex21 == ex12 ||
+        ex21 == ex13 ||
+        ex21 == ex14 ||
+        ex21 == ex15 ||
+        ex21 == ex16 ||
+        ex21 == ex17 ||
+        ex21 == ex18 ||
+        ex21 == ex19 ||
+        ex21 == ex19 ||
+        ex21 == ex20
+    ) {
+        exa21();
+    } else {
+        document.getElementById("box5_3").innerHTML = ex21;
+    }
+}
+
+function exa22() {
+    ex22 = cases[Math.floor(Math.random() * cases.length)];
+    if (
+        ex22 === ex ||
+        ex22 == ex1 ||
+        ex22 == ex2 ||
+        ex22 == ex3 ||
+        ex22 == ex4 ||
+        ex22 == ex5 ||
+        ex22 == ex6 ||
+        ex22 == ex7 ||
+        ex22 == ex8 ||
+        ex22 == ex9 ||
+        ex22 == ex10 ||
+        ex22 == ex11 ||
+        ex22 == ex12 ||
+        ex22 == ex13 ||
+        ex22 == ex14 ||
+        ex22 == ex15 ||
+        ex22 == ex16 ||
+        ex22 == ex17 ||
+        ex22 == ex18 ||
+        ex22 == ex19 ||
+        ex22 == ex20 ||
+        ex22 == ex21
+    ) {
+        exa22();
+    } else {
+        document.getElementById("box5_4").innerHTML = ex22;
+    }
+}
+
+function exa23() {
+    ex23 = cases[Math.floor(Math.random() * cases.length)];
+    if (
+        ex23 === ex ||
+        ex23 == ex1 ||
+        ex23 == ex2 ||
+        ex23 == ex3 ||
+        ex23 == ex4 ||
+        ex23 == ex5 ||
+        ex23 == ex6 ||
+        ex23 == ex7 ||
+        ex23 == ex8 ||
+        ex23 == ex9 ||
+        ex23 == ex10 ||
+        ex23 == ex11 ||
+        ex23 == ex12 ||
+        ex23 == ex13 ||
+        ex23 == ex14 ||
+        ex23 == ex15 ||
+        ex23 == ex16 ||
+        ex23 == ex17 ||
+        ex23 == ex18 ||
+        ex23 == ex19 ||
+        ex23 == ex20 ||
+        ex23 == ex21 ||
+        ex23 == ex22
+    ) {
+        exa23();
+    } else {
+        document.getElementById("box5_5").innerHTML = ex23;
+    }
+}
+
 // Background
 
 document.getElementById("box1_1").addEventListener("click", () => {
@@ -395,76 +650,148 @@ document.getElementById("box4_4").addEventListener("click", () => {
     red();
 });
 
+document.getElementById("box1_5").addEventListener("click", () => {
+    document.getElementById("box1_5").classList.toggle("red");
+
+    red();
+});
+
+document.getElementById("box2_5").addEventListener("click", () => {
+    document.getElementById("box2_5").classList.toggle("red");
+
+    red();
+});
+
+document.getElementById("box3_5").addEventListener("click", () => {
+    document.getElementById("box3_5").classList.toggle("red");
+
+    red();
+});
+
+document.getElementById("box4_5").addEventListener("click", () => {
+    document.getElementById("box4_5").classList.toggle("red");
+
+    red();
+});
+
+document.getElementById("box5_1").addEventListener("click", () => {
+    document.getElementById("box5_1").classList.toggle("red");
+
+    red();
+});
+
+document.getElementById("box5_2").addEventListener("click", () => {
+    document.getElementById("box5_2").classList.toggle("red");
+
+    red();
+});
+
+document.getElementById("box5_3").addEventListener("click", () => {
+    document.getElementById("box5_3").classList.toggle("red");
+
+    red();
+});
+
+document.getElementById("box5_4").addEventListener("click", () => {
+    document.getElementById("box5_4").classList.toggle("red");
+
+    red();
+});
+
+document.getElementById("box5_5").addEventListener("click", () => {
+    document.getElementById("box5_5").classList.toggle("red");
+
+    red();
+});
+
 // Bingo Function
 function red() {
     if (
         document.getElementById("box1_1").classList.contains("red") &&
         document.getElementById("box1_2").classList.contains("red") &&
         document.getElementById("box1_3").classList.contains("red") &&
-        document.getElementById("box1_4").classList.contains("red")
+        document.getElementById("box1_4").classList.contains("red") &&
+        document.getElementById("box1_5").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
         document.getElementById("box1_1").classList.contains("red") &&
         document.getElementById("box2_1").classList.contains("red") &&
         document.getElementById("box3_1").classList.contains("red") &&
-        document.getElementById("box4_1").classList.contains("red")
+        document.getElementById("box4_1").classList.contains("red") &&
+        document.getElementById("box5_1").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
         document.getElementById("box1_1").classList.contains("red") &&
         document.getElementById("box2_2").classList.contains("red") &&
         document.getElementById("box3_3").classList.contains("red") &&
-        document.getElementById("box4_4").classList.contains("red")
+        document.getElementById("box4_4").classList.contains("red") &&
+        document.getElementById("box5_5").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
         document.getElementById("box1_2").classList.contains("red") &&
         document.getElementById("box2_2").classList.contains("red") &&
         document.getElementById("box3_2").classList.contains("red") &&
-        document.getElementById("box4_2").classList.contains("red")
+        document.getElementById("box4_2").classList.contains("red") &&
+        document.getElementById("box5_2").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
         document.getElementById("box1_3").classList.contains("red") &&
         document.getElementById("box2_3").classList.contains("red") &&
         document.getElementById("box3_3").classList.contains("red") &&
-        document.getElementById("box4_3").classList.contains("red")
+        document.getElementById("box4_3").classList.contains("red") &&
+        document.getElementById("box5_3").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
         document.getElementById("box1_4").classList.contains("red") &&
         document.getElementById("box2_4").classList.contains("red") &&
         document.getElementById("box3_4").classList.contains("red") &&
-        document.getElementById("box4_4").classList.contains("red")
+        document.getElementById("box4_4").classList.contains("red") &&
+        document.getElementById("box5_4").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
-        document.getElementById("box1_4").classList.contains("red") &&
-        document.getElementById("box2_3").classList.contains("red") &&
-        document.getElementById("box3_2").classList.contains("red") &&
-        document.getElementById("box4_1").classList.contains("red")
+        document.getElementById("box1_5").classList.contains("red") &&
+        document.getElementById("box2_4").classList.contains("red") &&
+        document.getElementById("box3_3").classList.contains("red") &&
+        document.getElementById("box4_2").classList.contains("red") &&
+        document.getElementById("box5_1").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
         document.getElementById("box2_1").classList.contains("red") &&
         document.getElementById("box2_2").classList.contains("red") &&
         document.getElementById("box2_3").classList.contains("red") &&
-        document.getElementById("box2_4").classList.contains("red")
+        document.getElementById("box2_4").classList.contains("red") &&
+        document.getElementById("box2_5").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
         document.getElementById("box3_1").classList.contains("red") &&
         document.getElementById("box3_2").classList.contains("red") &&
         document.getElementById("box3_3").classList.contains("red") &&
-        document.getElementById("box3_4").classList.contains("red")
+        document.getElementById("box3_4").classList.contains("red") &&
+        document.getElementById("box3_5").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else if (
         document.getElementById("box4_1").classList.contains("red") &&
         document.getElementById("box4_2").classList.contains("red") &&
         document.getElementById("box4_3").classList.contains("red") &&
-        document.getElementById("box4_4").classList.contains("red")
+        document.getElementById("box4_4").classList.contains("red") &&
+        document.getElementById("box4_5").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box5_1").classList.contains("red") &&
+        document.getElementById("box5_2").classList.contains("red") &&
+        document.getElementById("box5_3").classList.contains("red") &&
+        document.getElementById("box5_4").classList.contains("red") &&
+        document.getElementById("box5_5").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
     } else {
