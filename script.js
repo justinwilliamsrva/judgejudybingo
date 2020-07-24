@@ -25,7 +25,7 @@ var cases = [
     "Contract Mentioned",
     "Child involved",
     "Litigants talk to each other",
-    "\'It's a yes or no question\'",
+    "'It's a yes or no question'",
 ];
 
 var ex = cases[Math.floor(Math.random() * cases.length)];
@@ -791,6 +791,14 @@ function red() {
         document.getElementById("box5_2").classList.contains("red") &&
         document.getElementById("box5_3").classList.contains("red") &&
         document.getElementById("box5_4").classList.contains("red") &&
+        document.getElementById("box5_5").classList.contains("red")
+    ) {
+        document.getElementById("bingo").innerHTML = "BINGO";
+    } else if (
+        document.getElementById("box1_5").classList.contains("red") &&
+        document.getElementById("box2_5").classList.contains("red") &&
+        document.getElementById("box3_5").classList.contains("red") &&
+        document.getElementById("box4_5").classList.contains("red") &&
         document.getElementById("box5_5").classList.contains("red")
     ) {
         document.getElementById("bingo").innerHTML = "BINGO";
