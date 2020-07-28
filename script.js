@@ -26,6 +26,7 @@ var cases = [
     "Child involved",
     "Litigants talk to each other",
     "'It's a yes or no question'",
+    "'I\ll take a look'",
 ];
 
 var ex = cases[Math.floor(Math.random() * cases.length)];
